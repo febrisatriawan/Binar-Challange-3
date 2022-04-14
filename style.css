@@ -142,15 +142,15 @@ body {
 
 /* text header */
 .title-big {
-    font-size: 2.5rem;
+    font-size: 6rem;
     font-weight: bold;
     letter-spacing: 8px;
     text-transform: uppercase;
 }
 
 .title-small {
-    font-size: 1.5rem;
-    font-weight: 400;
+    font-size: 2rem;
+    font-weight: normal;
 }
 
 .title-big-secondary {
@@ -225,7 +225,7 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     color: #fff;
-    font-size: 3.2rem;
+    font-size: 6rem;
     letter-spacing: 8px;
 }
 

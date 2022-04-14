@@ -142,20 +142,20 @@ body {
 
 /* text header */
 .title-big {
-    font-family: "Open Sans";
+    font-size: 2.5rem;
     font-weight: bold;
-    font-size: 80px;
     letter-spacing: 8px;
     text-transform: uppercase;
 }
 
 .title-small {
-    font-size: 36px;
-    font-weight: normal;
+    font-size: 1.5rem;
+    font-weight: 400;
 }
 
 .title-big-secondary {
-    font-size: 18px;
+    font-size: 2.5rem;
+    font-weight: bold;
     color: #f6b037;
     text-transform: uppercase;
 }
@@ -223,16 +223,16 @@ body {
 
 .hero__main-title h1 {
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: bold;
     color: #fff;
-    font-size: 80px;
+    font-size: 3.2rem;
     letter-spacing: 8px;
 }
 
-.hero__sub-title h2 {
-    font-weight: 600;
+.hero__sub-title h4 {
+    font-weight: bold;
     color: #fff5c6;
-    font-size: 36px;
+    font-size: 2rem;
     margin: 4rem 0;
     letter-spacing: 2px;
     opacity: 0.8;
@@ -438,7 +438,7 @@ body {
 }
 
 .score .main__button {
-    text-transform: lowercase;
+    text-transform: uppercase;
     font-size: 1.5rem;
 }
 

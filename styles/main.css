@@ -59,7 +59,7 @@ body {
 }
 #header .nav-list ul a {
     font-size: 2.5rem;
-    font-weight: 500;
+    font-weight: bold;
     letter-spacing: 0.2rem;
     text-decoration: none;
     color: white;
@@ -205,7 +205,7 @@ body {
             rgba(52, 44, 29, 0.30319) 73.22%,
             #08090a 99.74%
         ),
-        url(./assets/mainpage/bg1.jpg);
+        url(/assets/mainpage/bg1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -223,19 +223,20 @@ body {
 
 .hero__main-title h1 {
     text-transform: uppercase;
+    font-family: 'Bebas Neue';
     font-weight: bold;
-    color: #fff;
-    font-size: 6rem;
-    letter-spacing: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    letter-spacing: 15px;
 }
 
 .hero__sub-title h4 {
+    font-family: 'Bebas Neue';
     font-weight: bold;
-    color: #fff5c6;
+    color: #ffffff;
     font-size: 2rem;
     margin: 4rem 0;
-    letter-spacing: 2px;
-    opacity: 0.8;
+    letter-spacing: 6px;    
 }
 
 .hero__story-button {
@@ -268,7 +269,7 @@ body {
     padding: 15rem 0;
     display: flex;
     align-items: center;
-    background-image: radial-gradient(rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 70%), url(./assets/mainpage/bg2.jpg);
+    background-image: radial-gradient(rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 70%), url(/assets/mainpage/bg2.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -305,7 +306,7 @@ body {
 .features {
     min-height: 100vh;
     padding: 15rem 0;
-    background-image: url(./assets/mainpage/bg3.jpg);
+    background-image: url(/assets/mainpage/bg3.jpg);
     background-size: cover;
     background-position: center;
     backface-visibility: hidden;
@@ -380,7 +381,7 @@ body {
 .system {
     min-height: 100vh;
     padding: 10rem 0;
-    background-image: radial-gradient(rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.8) 60%), url(./assets/mainpage/bg4.png);
+    background-image: radial-gradient(rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.8) 60%), url(/assets/mainpage/bg4.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -429,7 +430,7 @@ body {
             rgba(0, 0, 0, 0) 19.22%,
             #080a0b 99.74%
         ),
-        url(./assets/mainpage/bg5.png);
+        url(/assets/mainpage/bg5.png);
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: -5px;
@@ -554,7 +555,7 @@ body {
 .newsletter__bg {
     min-height: 80vh;
     width: auto;
-    background-image: url(./assets/mainpage/patung.png);
+    background-image: url(/assets/mainpage/patung.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -770,9 +771,7 @@ ul.footer__copyright-menu {
 
 /* Media Query For Tab-small */
 @media only screen and (min-width: 768px) {
-    .hero__main-title h1 {
-        font-size: 5.5rem;
-    }
+  
     .hero__sub-title h4 {
         font-size: 2.5rem;
     }
